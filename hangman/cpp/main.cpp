@@ -30,10 +30,11 @@ int main(int argc, char *argv[]) {
     playMove(getMove());
   } while (gameState == 0);
 
-  if (gameState == -1)
-    cout << "Better luck next time!" << endl;
-  else if (gameState == 1)
+  if (gameState == 1)
     cout << "Congradulations!" << endl;
+  else if (gameState == -1)
+    cout << "Better luck next time!" << endl;
+
   cout << "The phrase was '" << phrase << "'." << endl;
 
   return 0;

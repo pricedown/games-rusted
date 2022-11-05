@@ -5,7 +5,7 @@ Please give critique if you know what you're talking about so that both the rust
 ### Hangman
 This game will show basic indexing methods
 
-I want multiple letters to be allowed for each move, and they get considered sequentially.
+Multiple letters should be allowed for each move, they get considered sequentially.
 Meaning that if you think you get the phrase you can just type the whole thing.
 
 ### Tictactoe
